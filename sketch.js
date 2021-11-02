@@ -73,11 +73,11 @@ function preload() {
 
   asteroidImg = loadImage("images/Asteroid/asteriod_1.png");
 
-  bg = loadImage("images/background/Game end.jpeg");
+  bg = loadImage("images/Background/Game end.jpeg");
 
-  gpbg = loadImage("images/background/Game play.jpeg");
+  gpbg = loadImage("images/Background/Game play.jpeg");
 
-  gsbg = loadImage("images/background/Game serve.jpeg");
+  gsbg = loadImage("images/Background/Game serve.jpeg");
 
   laserBulletsImg1 = loadImage("images/Bullets/laser5.png");
 }
