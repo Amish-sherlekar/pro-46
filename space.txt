@@ -1,0 +1,17 @@
+if (asteroidGroup.isTouching(spaceship1)) {
+    for (var i = 0; i < asteroidGroup.length; i++) {
+        if (asteroidGroup[i].isTouching(spaceship1)) {
+            asteroidGroup[i].destroy();
+        }
+    }
+}
+if (asteroidGroup.isTouching(laserBullets)) {
+    for (var o = 0; o < asteroidGroup.length; o++) {
+        if (asteroidGroup[o].isTouching(laserBullets)) {
+            asteroidGroup[o].destroy();
+        }
+    }
+}
+if (asteroidGroup.isTouching(boundry)) {
+    gameState = END;
+}

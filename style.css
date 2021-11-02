@@ -1,0 +1,16 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+body{
+  background-color: rgb(221, 128, 6);
+  background-color: rgb(221, 207, 6);
+  background-color: rgb(189, 221, 6);
+  background-color: rgb(13, 221, 6);
+  background-color: rgb(221, 128, 6);
+  background-color: rgb(221, 128, 6);
+  background-color: rgb(221, 128, 6);
+}
